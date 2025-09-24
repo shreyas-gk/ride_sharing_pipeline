@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.env
+venv/
+.env/
+
+# dbt
+target/
+dbt_modules/
+*.dbt
+
+# Airflow
+logs/
+airflow_home/
+*.db
+
+# VSCode
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Mac / Linux
+.DS_Store
+*.swp
+*.swo
+
+# AWS / temporary files
+*.csv
+*.json
+*.parquet
+*.zip
